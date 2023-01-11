@@ -1,0 +1,112 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container 
+
+.container-navbar {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: darkblue;
+  font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: greenyellow;
+    transition: .2s ease-in-out;
+    transition-delay: .0s;
+    border-radius : 5px;
+    box-shadow: 0px 5px 33px 12px greenyellow;
+    -webkit-box-shadow: 0px 5px 33px 12px greenyellow;
+    -moz-box-shadow: 0px 5px 33px 12px greenyellow;
+}
+
+.a-navbar {
+    color: darkred;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content{
+    background-color: rgb(88, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    border-radius: 80px;
+    box-shadow: 15px 23px 26px 0px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 15px 23px 26px 0px rgba(0,0,0,0.85);
+    -moz-box-shadow: 15px 23px 26px 0px rgba(0,0,0,0.85);
+}
+
+.a-content:hover {
+    background-color: greenyellow;
+    border-radius: 80px;
+    transition: .7s ease-in-out;
+    box-shadow: 0px 5px 67px 30px greenyellow;
+    -webkit-box-shadow: 0px 5px 67px 30px white(6,77,3,1);
+    -moz-box-shadow: 0px 5px 67px 30px greenyellow;
+}
+
+.wdyw {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aysl {
+    font-style: unset ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.img-content {
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.container-footer {
+   height: 10vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hl-footer {
+    font-size: 40px;
+}
+
+.h1-footer {
+    color: darkred;
+}
